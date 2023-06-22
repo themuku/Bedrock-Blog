@@ -1,0 +1,33 @@
+.pagination {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pagination a {
+  text-decoration: none;
+}
+
+.pagination p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #000000;
+  font-variation-settings: "slnt" 0;
+}
+
+.pagination button {
+  padding: 12px 48px;
+  gap: 8px;
+
+  width: 139px;
+  height: 32px;
+
+  border: 1px solid #000000;
+  border-radius: 7px;
+}

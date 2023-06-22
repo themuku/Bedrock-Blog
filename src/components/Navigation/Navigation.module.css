@@ -1,0 +1,28 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navigation input {
+  height: 32px;
+}
+
+.navigation button {
+  height: 32px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: inherit;
+}

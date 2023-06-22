@@ -1,0 +1,43 @@
+.home {
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #73778c;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-bottom: 160px;
+}
+
+.recent-posts .blog-carts {
+  display: flex;
+  gap: 24px;
+}
+
+.see_all a {
+  text-decoration: none;
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #000000;
+  font-variation-settings: "slnt" 0;
+}
+
+.featured-post {
+  margin-top: 64px;
+}

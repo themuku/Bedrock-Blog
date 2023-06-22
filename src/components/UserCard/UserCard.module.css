@@ -1,0 +1,31 @@
+.user-card {
+  background-image: url("../../assets/user.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  height: 403px;
+  margin-top: 73px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.user-card h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #c7c9d1;
+  margin-left: 37px;
+}
+
+.user-card h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 90px;
+  color: #ffffff;
+  margin-left: 37px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,12 @@
+.user-image {
+  display: inline-block;
+  width: 77px;
+  height: 77px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-image img {
+  width: inherit;
+  height: inherit;
+}

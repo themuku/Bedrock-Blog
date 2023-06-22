@@ -1,0 +1,17 @@
+header {
+  border-bottom: solid 1px #e3e4e8;
+}
+
+.header .header-box {
+  margin: 0 auto;
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 0;
+}
+
+.header img {
+  height: 48px;
+  width: 190px;
+}

@@ -1,0 +1,102 @@
+.other-posts .blog-carts {
+  display: flex;
+  gap: 24px;
+}
+
+.see_all a {
+  text-decoration: none;
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #000000;
+  font-variation-settings: "slnt" 0;
+}
+
+.post-details {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.post-heading {
+  margin-top: 78px;
+  margin-bottom: 51px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 90px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.post-image {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 53px;
+}
+
+.post-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  border-color: #c7c9d1;
+}
+
+.post-info p {
+  color: #8f93a3;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.post-author {
+  display: flex;
+  gap: 9px;
+  margin-bottom: 41px;
+}
+
+.post-author p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #8f93a3;
+}
+
+.post-details h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.post-details h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.post-details > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 116px;
+}
+
+.post-details blockquote {
+  margin-bottom: 142px;
+}

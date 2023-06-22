@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #c7c9d1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card > div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: 16px;
+}
+
+.card > img {
+  margin-bottom: 1rem;
+  height: 247px;
+}
+
+.card > h4 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  margin: 16px;
+  justify-self: flex-end;
+}
+
+.link-to-post {
+  display: inline-block;
+  width: 100%;
+}
